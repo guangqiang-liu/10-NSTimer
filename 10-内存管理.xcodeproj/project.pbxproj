@@ -16,6 +16,8 @@
 		9C3A7CDB23F4EBCB004C7B9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A7CDA23F4EBCB004C7B9D /* main.m */; };
 		9C3A7CE523F4EBCB004C7B9D /* _0_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A7CE423F4EBCB004C7B9D /* _0_____Tests.m */; };
 		9C3A7CF023F4EBCB004C7B9D /* _0_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A7CEF23F4EBCB004C7B9D /* _0_____UITests.m */; };
+		9C3AC0E323F579AC004C7B9D /* TimerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3AC0E223F579AC004C7B9D /* TimerProxy.m */; };
+		9C3AC0E623F57F42004C7B9D /* TimerProxy2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3AC0E523F57F42004C7B9D /* TimerProxy2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		9C3A7CEB23F4EBCB004C7B9D /* 10-内存管理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "10-内存管理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3A7CEF23F4EBCB004C7B9D /* _0_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0_____UITests.m"; sourceTree = "<group>"; };
 		9C3A7CF123F4EBCB004C7B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C3AC0E123F579AC004C7B9D /* TimerProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerProxy.h; sourceTree = "<group>"; };
+		9C3AC0E223F579AC004C7B9D /* TimerProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerProxy.m; sourceTree = "<group>"; };
+		9C3AC0E423F57F42004C7B9D /* TimerProxy2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerProxy2.h; sourceTree = "<group>"; };
+		9C3AC0E523F57F42004C7B9D /* TimerProxy2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerProxy2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				9C3A7CCC23F4EBCA004C7B9D /* SceneDelegate.m */,
 				9C3A7CCE23F4EBCA004C7B9D /* ViewController.h */,
 				9C3A7CCF23F4EBCA004C7B9D /* ViewController.m */,
+				9C3AC0E123F579AC004C7B9D /* TimerProxy.h */,
+				9C3AC0E223F579AC004C7B9D /* TimerProxy.m */,
+				9C3AC0E423F57F42004C7B9D /* TimerProxy2.h */,
+				9C3AC0E523F57F42004C7B9D /* TimerProxy2.m */,
 				9C3A7CD123F4EBCA004C7B9D /* Main.storyboard */,
 				9C3A7CD423F4EBCB004C7B9D /* Assets.xcassets */,
 				9C3A7CD623F4EBCB004C7B9D /* LaunchScreen.storyboard */,
@@ -267,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C3AC0E323F579AC004C7B9D /* TimerProxy.m in Sources */,
+				9C3AC0E623F57F42004C7B9D /* TimerProxy2.m in Sources */,
 				9C3A7CD023F4EBCA004C7B9D /* ViewController.m in Sources */,
 				9C3A7CCA23F4EBCA004C7B9D /* AppDelegate.m in Sources */,
 				9C3A7CDB23F4EBCB004C7B9D /* main.m in Sources */,
